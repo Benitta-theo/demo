@@ -1,0 +1,57 @@
+.barcode_section {
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,247,233,1) 50%, rgba(252,219,164,1) 63%, rgba(255,169,23,1) 100%);
+    width: 60%;
+    margin: 60px auto;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    min-height: 200px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 30px;
+  }
+  .heading {
+    margin-top: 0px;
+  }
+  .heading_list svg, .heading_list p {
+    display: inline-block;
+    vertical-align: top;
+    font-weight: bold;
+  }
+  .list_wrapper {
+    margin-bottom: 20px;
+  }
+  .sub_list p {
+    margin-top: 8px;
+    border-bottom: 1px dotted #000;
+  }
+  .heading_list p {
+    text-transform: capitalize;
+  }
+  .heading_list svg {
+    color: #c98100;
+  }
+  .input_field p {
+    margin-bottom: 10px;
+  }
+  .input_field button {
+    margin-top: 20px;
+    background: #ffa300;
+    font-weight: bold;
+  }
+  .input_field button:hover {
+    background: #e99500;
+  }
+  .input_field {
+    padding-right: 40px;
+  }
+  .css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+    border-color: #e99500 !important;
+  }
+  @media screen and (max-width:899px) {
+    .input_field {
+      padding-right: 0px !important;
+    }
+    .list_grid {
+      margin-top: 50px;
+    }
+  }
